@@ -2,7 +2,8 @@
 
   return {
     events: {
-      'app.activated':'init'
+      'app.activated'                   : 'init',
+      'ticket.form.id.changed'          : 'reinit'
     },
 
     init: function() {
